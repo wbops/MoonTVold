@@ -122,7 +122,7 @@
             "name": "索尼-闪电资源"
         },
         "niuniurwr": {
-            "api": "https://api.niuniuzy.me/api.php/provide/vod",
+            "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/json",
             "name": "牛牛资源"
         },
         "yayaziyuan": {
