@@ -92,6 +92,34 @@
         "senlinziyuan": {
             "api": "https://slapibf.com/api.php/provide/vod",
             "name": "森林资源"
-        }
+        },
+		"aiduanjucc": {
+			"api": "https://www.aiduanju.cc/",
+			"name": "爱短剧.cc"
+		},
+		"huaweiba": {
+			"api":"https://huawei8.live/api.php/provide/vod",
+			"name": "华为吧资源"
+		},
+		"taopian": {
+			"api": "https://taopianapi.com/cjapi/sda/vod",
+			"name": "淘片资源"
+		},
+		"baiduziyuan": {
+			"api": "https://api.apibdzy.com/api.php/provide/vod",
+			"name": "百度资源采集bdzy.tv"
+		},
+		"maotaiziyuan": {
+			"api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+			"name": "茅台资源"
+		},
+		"baofengziyuan": {
+			"api": "https://bfzyapi.com/api.php/provide/vod",
+			"name": "暴风资源"
+		},
+		"hongniuziyuan": {
+			"api": "https://www.hongniuzy3.com/api.php/provide/vod",
+			"name": "红牛资源"
+		}
     }
 }
