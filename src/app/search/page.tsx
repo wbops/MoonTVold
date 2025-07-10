@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable react-hooks/exhaustive-deps, @typescript-eslint/no-explicit-any */
 'use client';
 
 import { Search, X } from 'lucide-react';
@@ -13,7 +13,6 @@ import {
 } from '@/lib/db.client';
 import { SearchResult } from '@/lib/types';
 
-import AggregateCard from '@/components/AggregateCard';
 import PageLayout from '@/components/PageLayout';
 import VideoCard from '@/components/VideoCard';
 
@@ -29,11 +28,12 @@ function SearchPageClient() {
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
 
   // 视图模式：聚合(agg) 或 全部(all)，默认值由环境变量 NEXT_PUBLIC_AGGREGATE_SEARCH_RESULT 决定
+  const defaultAggregate =
+    typeof window !== 'undefined' &&
+    Boolean((window as any).RUNTIME_CONFIG?.AGGREGATE_SEARCH_RESULT);
+
   const [viewMode, setViewMode] = useState<'agg' | 'all'>(
-    process.env.NEXT_PUBLIC_AGGREGATE_SEARCH_RESULT === 'false' ||
-      process.env.NEXT_PUBLIC_AGGREGATE_SEARCH_RESULT === '0'
-      ? 'all'
-      : 'agg'
+    defaultAggregate ? 'agg' : 'all'
   );
 
   // 聚合后的结果（按标题和年份分组）
@@ -49,6 +49,14 @@ function SearchPageClient() {
       map.set(key, arr);
     });
     return Array.from(map.entries()).sort((a, b) => {
+      // 优先排序：标题与搜索词完全一致的排在前面
+      const aExactMatch = a[1][0].title === searchQuery.trim();
+      const bExactMatch = b[1][0].title === searchQuery.trim();
+
+      if (aExactMatch && !bExactMatch) return -1;
+      if (!aExactMatch && bExactMatch) return 1;
+
+      // 如果都匹配或都不匹配，则按原来的逻辑排序
       return a[1][0].year === b[1][0].year
         ? a[0].localeCompare(b[0])
         : a[1][0].year > b[1][0].year
@@ -89,6 +97,14 @@ function SearchPageClient() {
       const data = await response.json();
       setSearchResults(
         data.results.sort((a: SearchResult, b: SearchResult) => {
+          // 优先排序：标题与搜索词完全一致的排在前面
+          const aExactMatch = a.title === query.trim();
+          const bExactMatch = b.title === query.trim();
+
+          if (aExactMatch && !bExactMatch) return -1;
+          if (!aExactMatch && bExactMatch) return 1;
+
+          // 如果都匹配或都不匹配，则按原来的逻辑排序
           return a.year === b.year
             ? a.title.localeCompare(b.title)
             : a.year > b.year
@@ -185,11 +201,7 @@ function SearchPageClient() {
                   ? aggregatedResults.map(([mapKey, group]) => {
                       return (
                         <div key={`agg-${mapKey}`} className='w-full'>
-                          <AggregateCard
-                            items={group}
-                            query={searchQuery}
-                            year={group[0].year}
-                          />
+                          <VideoCard from='search' items={group} />
                         </div>
                       );
                     })
@@ -205,7 +217,7 @@ function SearchPageClient() {
                           episodes={item.episodes.length}
                           source={item.source}
                           source_name={item.source_name}
-                          douban_id={item.douban_id}
+                          douban_id={item.douban_id?.toString()}
                           from='search'
                         />
                       </div>
