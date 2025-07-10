@@ -136,6 +136,10 @@
 		 "ukuoziyuan": {
             "api": "https://api.ukuapi88.com/api.php/provide/vod",
             "name": "U酷资源网"
+        },
+		"jinyingziyuan": {
+            "api": "https://jyzyapi.com/provide/vod",
+            "name": "金鹰资源采集网"
         }
 
     }
