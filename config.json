@@ -122,7 +122,7 @@
             "name": "索尼-闪电资源"
         },
         "niuniurwr": {
-            "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xml/",
+            "api": "https://api.zuidapi.com/api.php/provide/vod",
             "name": "牛牛资源"
         },
         "yayaziyuan": {
@@ -130,8 +130,12 @@
             "name": "鸭鸭资源"
         },
         "aaerziyuan": {
-            "api": " https://155api.com/api.php/provide/vod",
+            "api": "https://155api.com/api.php/provide/vod",
             "name": "155黄色资源"
+        },
+		 "ukuoziyuan": {
+            "api": "https://api.ukuapi88.com/api.php/provide/vod",
+            "name": "U酷资源网"
         }
 
     }
