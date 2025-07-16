@@ -145,7 +145,12 @@
 		"jinyingziyuan": {
             "api": "https://jyzyapi.com/provide/vod",
             "name": "金鹰资源采集网"
-        }
+        },
+		"ckzy": {
+			
+			"api": "https://ckzy.me/api.php/provide/vod",
+			"name": "ckzy"
+		}
 
     }
 }
