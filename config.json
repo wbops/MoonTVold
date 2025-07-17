@@ -150,6 +150,26 @@
 			
 			"api": "https://ckzy.me/api.php/provide/vod",
 			"name": "ckzy"
+		},
+		"fengchao": {
+			"api": "https://api.fczy888.me/api.php/provide/vod",
+			"name": "蜂巢片库"
+		},
+		"jinmaziyuan2": {
+			"api": "https://api.jmzy.com/api.php/provide/vod",
+			"name": "金马资源网"
+		},
+		"dadiziy": {
+			"api": "https://dadiapi.com/api.php/provide/vod",
+			"name": "大地资源网络"
+		},
+		"huangseziy": {
+			"api": "https://hsckzy888.com/api.php/provide/vod",
+			"name": "黄色资源啊啊"
+		},
+		"xiaojiziy": {
+			"api": "https://api.xiaojizy.live/provide/vod",
+			"name": "小鸡资源"
 		}
 
     }
