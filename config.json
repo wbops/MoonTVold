@@ -178,6 +178,10 @@
 		'xinlangaa': {
 			"api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
 			"name": "新浪资源阿"
+		},
+		'lajiaoziyu': {
+			"api": "https://apilj.com/api.php/provide",
+			"name": "辣椒资源黄黄"
 		}
     }
 }
