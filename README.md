@@ -57,7 +57,7 @@
 | 语言      | TypeScript 4                                                                                          |
 | 播放器    | [ArtPlayer](https://github.com/zhw2590582/ArtPlayer) · [HLS.js](https://github.com/video-dev/hls.js/) |
 | 代码质量  | ESLint · Prettier · Jest                                                                              |
-| 部署      | Docker · Vercel                                                                                       |
+| 部署      | Docker · Vercel · CloudFlare pages                                                                                 |
 
 ## 部署
 
@@ -77,6 +77,8 @@
 部署完成后即可通过分配的域名访问，也可以绑定自定义域名。
 
 ### Cloudflare 部署
+
+**Cloudflare Pages 的环境变量尽量设置为密钥而非文本**
 
 #### 普通部署（localstorage）
 
@@ -190,6 +192,7 @@ networks:
 | REDIS_URL                   | redis 连接 url，若 NEXT_PUBLIC_STORAGE_TYPE 为 redis 则必填 | 连接 url                                                | 空                                                                                                                         |
 | NEXT_PUBLIC_ENABLE_REGISTER | 是否开放注册，仅在 redis 部署时生效                         | true / false                                            | false                                                                                                                      |
 | NEXT_PUBLIC_SEARCH_MAX_PAGE | 搜索接口可拉取的最大页数                                    | 1-50                                                    | 5                                                                                                                          |
+| NEXT_PUBLIC_IMAGE_PROXY     | 默认的浏览器端图片代理                                      | url prefix                                              | (空)                                                                                                                       |
 
 ## 配置说明
 
