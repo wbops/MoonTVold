@@ -182,6 +182,10 @@
 		'lajiaoziyu': {
 			"api": "https://apilj.com/api.php/provide",
 			"name": "辣椒资源黄黄"
+		},
+		"huyaaer": {
+			"api": "https://www.huyaapi.com/api.php/provide/vod",
+			"name": "虎牙资源阿第克"
 		}
     }
 }
