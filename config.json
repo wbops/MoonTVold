@@ -186,6 +186,22 @@
 		"huyaaer": {
 			"api": "https://www.huyaapi.com/api.php/provide/vod",
 			"name": "虎牙资源阿第克"
-		}
+		},
+		"souavee": {
+			"api": "https://api.souavzy.vip/api.php/provide/vod",
+			"name": "搜av黄色资源"
+		},
+		'youzhidianying': {
+			"api": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod",
+			"name": "优质资源库1080zyk6.com高清"
+		},
+		"xiaomaomi": {
+		  "api": "https://zy.xmm.hk/api.php/provide/vod",
+		  "name": "小猫咪资源"
+       },
+	   "iqiyi": {
+		  "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
+		  "name": "iqiyi资源"
+      }
     }
 }
