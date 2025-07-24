@@ -171,15 +171,15 @@
 			"api": "https://api.xiaojizy.live/provide/vod",
 			"name": "小鸡资源"
 		},
-		'kauicheziyuan': {
+		"kauicheziyuan": {
 			"api": "https://caiji.kuaichezy.org/api.php/provide",
 			"name": "快车资源阿"
 		},
-		'xinlangaa': {
+		"xinlangaa": {
 			"api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
 			"name": "新浪资源阿"
 		},
-		'lajiaoziyu': {
+		"lajiaoziyu": {
 			"api": "https://apilj.com/api.php/provide",
 			"name": "辣椒资源黄黄"
 		},
@@ -191,7 +191,7 @@
 			"api": "https://api.souavzy.vip/api.php/provide/vod",
 			"name": "搜av黄色资源"
 		},
-		'youzhidianying': {
+		"youzhidianying": {
 			"api": "https://api.yzzy-api.com/inc/ldg_api_all.php/provide/vod",
 			"name": "优质资源库1080zyk6.com高清"
 		},
