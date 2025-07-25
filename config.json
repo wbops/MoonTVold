@@ -202,6 +202,10 @@
 	   "iqiyi": {
 		  "api": "https://www.iqiyizyapi.com/api.php/provide/vod",
 		  "name": "iqiyi资源"
-      }
+      },
+	  "JKUNHUANGSE": {
+		  "api": "https://jkunzyapi.com/api.php/provide/vod",
+		  "name": "JKUN黄色资源"
+	  }
     }
 }
