@@ -1,17 +1,16 @@
 {
     "cache_time": 9200,
     "api_site": {
-         "TV-1080资源": {"name": "TV-1080资源","api": "https://api.1080zyku.com/inc/api_mac10.php"},
+
          "TV-U酷资源": {"name": "TV-U酷资源","api": "https://api.ukuapi.com/api.php/provide/vod"},
          "TV-U酷资源": {"name": "TV-U酷资源","api": "https://api.ukuapi88.com/api.php/provide/vod"},
-         "TV-ikun资源": {"name": "TV-ikun资源","api": "https://ikunzyapi.com/api.php/provide/vod"},
-         "TV-丫丫点播": {"name": "TV-丫丫点播","api": "https://cj.yayazy.net/api.php/provide/vod"},
+
          "TV-卧龙点播": {"name": "TV-卧龙点播","api": "https://collect.wolongzyw.com/api.php/provide/vod"},
          "TV-卧龙资源": {"name": "TV-卧龙资源","api": "https://collect.wolongzy.cc/api.php/provide/vod"},
          "TV-卧龙资源2": {"name": "TV-卧龙资源","api": "https://wolongzyw.com/api.php/provide/vod"},
          "TV-天涯资源": {"name": "TV-天涯资源","api": "https://tyyszy.com/api.php/provide/vod"},
          "TV-如意资源": {"name": "TV-如意资源","api": "https://cj.rycjapi.com/api.php/provide/vod"},
-         "TV-小猫咪资源": {"name": "TV-小猫咪资源","api": "https://zy.xmm.hk/api.php/provide/vod"},
+
 
          "TV-无尽资源": {"name": "TV-无尽资源","api": "https://api.wujinapi.com/api.php/provide/vod"},
          "TV-无尽资源": {"name": "TV-无尽资源","api": "https://api.wujinapi.me/api.php/provide/vod"},
@@ -20,8 +19,7 @@
 
          "TV-牛牛点播": {"name": "TV-牛牛点播","api": "https://api.niuniuzy.me/api.php/provide/vod"},
          "TV-电影天堂资源": {"name": "TV-电影天堂资源","api": "http://caiji.dyttzyapi.com/api.php/provide/vod"},
-         "TV-百度云资源": {"name": "TV-百度云资源","api": "https://api.apibdzy.com/api.php/provide/vod"},
-         "TV-神马云": {"name": "TV-神马云","api": "https://api.1080zyku.com/inc/apijson.php/"},
+
          "TV-索尼资源": {"name": "TV-索尼资源","api": "https://suoniapi.com/api.php/provide/vod"},
 
          "TV-金鹰点播": {"name": "TV-金鹰点播","api": "https://jinyingzy.com/api.php/provide/vod"},
@@ -31,7 +29,6 @@
          "TV-魔爪资源": {"name": "TV-魔爪资源","api": "https://mozhuazy.com/api.php/provide/vod"},
          "TV-魔都动漫": {"name": "TV-魔都动漫","api": "https://caiji.moduapi.cc/api.php/provide/vod"},
          "TV-魔都资源": {"name": "TV-魔都资源","api": "https://www.mdzyapi.com/api.php/provide/vod"},
-         "TV-鸭鸭资源": {"name": "TV-鸭鸭资源","api": "https://cj.yayazy.net/api.php/provide/vod"},
 
          "TV-索尼-闪电资源": {"name": "TV-索尼-闪电资源","api": "https://xsd.sdzyapi.com/api.php/provide/vod"},
          "TV-非凡影视new": {"name": "TV-非凡影视new","api": "https://api.ffzyapi.com/api.php/provide/vod"}
