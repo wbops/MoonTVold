@@ -2,8 +2,7 @@
     "cache_time": 9200,
     "api_site": {
 
-         "TV-U酷资源": {"name": "TV-U酷资源","api": "https://api.ukuapi.com/api.php/provide/vod"},
-         "TV-U酷资源": {"name": "TV-U酷资源","api": "https://api.ukuapi88.com/api.php/provide/vod"},
+
 
          "TV-卧龙点播": {"name": "TV-卧龙点播","api": "https://collect.wolongzyw.com/api.php/provide/vod"},
          "TV-卧龙资源": {"name": "TV-卧龙资源","api": "https://collect.wolongzy.cc/api.php/provide/vod"},
@@ -27,8 +26,7 @@
          "TV-非凡资源": {"name": "TV-非凡资源","api": "https://cj.ffzyapi.com/api.php/provide/vod"},
          "TV-飘零资源": {"name": "TV-飘零资源","api": "https://p2100.net/api.php/provide/vod"},
          "TV-魔爪资源": {"name": "TV-魔爪资源","api": "https://mozhuazy.com/api.php/provide/vod"},
-         "TV-魔都动漫": {"name": "TV-魔都动漫","api": "https://caiji.moduapi.cc/api.php/provide/vod"},
-         "TV-魔都资源": {"name": "TV-魔都资源","api": "https://www.mdzyapi.com/api.php/provide/vod"},
+
 
          "TV-索尼-闪电资源": {"name": "TV-索尼-闪电资源","api": "https://xsd.sdzyapi.com/api.php/provide/vod"},
          "TV-非凡影视new": {"name": "TV-非凡影视new","api": "https://api.ffzyapi.com/api.php/provide/vod"}
