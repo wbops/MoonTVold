@@ -71,6 +71,6 @@
          "AV-黄色资源": {"name": "AV-黄色资源","api": "https://hsckzy888.com/api.php/provide/vod"},
          "AV-小鸡资源": {"name": "AV-小鸡资源","api": "https://api.xiaojizy.live/provide/vod"},
          "AV-细胞采集黄色": {"name": "AV-细胞采集黄色","api": "https://www.xxibaozyw.com/api.php/provide/vod"},
-         "AV-大地资源": {"name": "大地资源","api": "https://dadiapi.com/api.php"}
+         "AV-大地资源": {"name": "AV-大地资源","api": "https://dadiapi.com/api.php"}
     }
 }
