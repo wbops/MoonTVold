@@ -25,9 +25,7 @@
 
 
          "TV-索尼-闪电资源": {"name": "TV-索尼-闪电资源","api": "https://xsd.sdzyapi.com/api.php/provide/vod"},
-         "TV-非凡影视new": {"name": "TV-非凡影视new","api": "https://api.ffzyapi.com/api.php/provide/vod"},
-
-
+         "TV-非凡影视new": {"name": "TV-非凡影视new","api": "https://api.ffzyapi.com/api.php/provide/vod"}
 
 
         
